@@ -1,4 +1,4 @@
-package example.lesson.basic;
+package task.crc32;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,5 @@ class BasicAppTest {
 
     @Test
     void shouldReverseAString() {
-        String reversed = BasicApp.reverse("Poznań");
-        assertEquals("ńanzoP", reversed);
     }
 }
